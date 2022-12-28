@@ -27,6 +27,7 @@ public class PrimeNumber {
                 b = false;
                 break;
             }
+
         }
         if(n == 1 || n == 0)
         {
