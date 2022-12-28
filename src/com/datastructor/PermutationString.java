@@ -23,7 +23,7 @@ public class PermutationString {
         String s = "ABC";
         String answer = "\n";
 
-        System.out.print("Acutal String: "+s+ "\nAll possible strings are : ");
+        System.out.print("Actual String: "+s+ "\nAll possible strings are : ");
         permute(s,answer);
     }
 }
