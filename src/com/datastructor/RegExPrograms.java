@@ -52,7 +52,7 @@ public class RegExPrograms {
     //Method to get Date
     public String date() {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-        Date date = new Date();
+      //  Date date = new Date();
         return formatter.format(date);
     }
 

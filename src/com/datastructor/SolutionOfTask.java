@@ -55,7 +55,7 @@ public class SolutionOfTask {
             map.put(D, map.get(D) + M);
         }
 
-        if (tasks.size() == 0)
+      //  if (tasks.size() == 0)
         {
             tasks.add(D);
             return Math.max(0, M - D);
