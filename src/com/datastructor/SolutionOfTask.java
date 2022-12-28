@@ -37,7 +37,7 @@ public class SolutionOfTask {
     public static Map<Long, Long> map = new HashMap<>();
     public static long maxSoFar = -1;
     public static long deadlineOfMax = -1;
-    static long solve(List<Long> tasks, long D, long M, int upIndex) {
+    static long solve(List tasks, long D, long M, int upIndex) {
 
         if (maxSoFar >= 0 && D <= deadlineOfMax)
         {
